@@ -107,24 +107,16 @@ color: var(--color-accent-color);
 .second-title{
     font-size: 36px;
     line-height: 0.86;
-    /* letter-spacing: 0.03em; */
 }
 .third-title{
     font-size: 14px;
     line-height: 1.14;
-    /* letter-spacing: 0.03em; */
-    /* color: var(--dark-accent-color); */
     text-transform: uppercase;
 }
 .name-title{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
-}
-.department-name{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.19x;
 }
 
 .visually-hidden { 
@@ -139,12 +131,24 @@ color: var(--color-accent-color);
     rect(0 0 0 0); 
     overflow: hidden;
 }
+.portfolio-title{
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--dark-accent-color)
+
+}
 /* ------  ТЕКСТИ ------ */
 .feature-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
-    /* letter-spacing: 0.03em; */
+    line-height: 1.71;
+    color: #757575;
+}
+.card-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
     color: #757575;
 }
 
