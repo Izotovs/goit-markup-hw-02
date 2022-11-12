@@ -6,20 +6,21 @@
 }
 body {
 font-family: Roboto, sans-serif;
+font-weight: 700;
 background-color: var(--bg-color);
 color: var(--dark-accent-color);
+letter-spacing: 0.03em;
 }
 
 
 /* ------  LOGO ------ */
 
 .logo-accent {
-    font-family: 'Raleway';
+    font-family: Raleway, sans-serif;
     color: var(--color-accent-color);
-    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
+    /* letter-spacing: 0.03em; */
 
 }
 .logo-black {
@@ -43,7 +44,7 @@ a {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--dark-accent-color);
+    /* color: var(--dark-accent-color); */
 }
 
 .link:hover {
@@ -60,10 +61,20 @@ color: var(--color-accent-color);
 .nav-list {
     color: var(--dark-accent-color);
 }
+.footer-where-to{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--bg-color)
+}
+.footer-mail-tel{
+    color: rgba(255, 255, 255, 0.6);
+}
+
 /* ------  КНОПКИ ------ */
 
 .hero-btn {
-    font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
@@ -91,11 +102,51 @@ color: var(--color-accent-color);
     line-height: 1.36;
     text-transform: uppercase;
     letter-spacing: 0.06em;
-    
     color: var(--bg-color);
+}
+.second-title{
+    font-size: 36px;
+    line-height: 0.86;
+    /* letter-spacing: 0.03em; */
+}
+.third-title{
+    font-size: 14px;
+    line-height: 1.14;
+    /* letter-spacing: 0.03em; */
+    /* color: var(--dark-accent-color); */
+    text-transform: uppercase;
+}
+.name-title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+.department-name{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19x;
+}
 
+.visually-hidden { 
+    /* отримано на SLACK */
+    position: absolute; 
+    width: 1px; height: 1px; 
+    margin: -1px; 
+    border: 0; 
+    padding: 0;
+    white-space: nowrap; 
+    clip-path: inset(100%); clip: 
+    rect(0 0 0 0); 
+    overflow: hidden;
 }
 /* ------  ТЕКСТИ ------ */
+.feature-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* letter-spacing: 0.03em; */
+    color: #757575;
+}
 
 /* ------  ДОДАТКОВО ------ */
 .hero {
