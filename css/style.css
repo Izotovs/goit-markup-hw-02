@@ -1,14 +1,21 @@
+:root{
+--color-accent-color: #2196f3;
+--dark-accent-color: #212112;
+--bg-color: #ffffff;
+
+}
 body {
-background-color: #FFFFFF;
-color: #212121;
 font-family: Roboto, sans-serif;
+background-color: var(--bg-color);
+color: var(--dark-accent-color);
 }
 
 
 /* ------  LOGO ------ */
+
 .logo-accent {
     font-family: 'Raleway';
-    color:#2196F3;
+    color: var(--color-accent-color);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -16,31 +23,81 @@ font-family: Roboto, sans-serif;
 
 }
 .logo-black {
-    font-family: 'Raleway';
-    color:#000000;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
+       color:#000000;
+   }
 
+/* ------  СПИСОК ------ */
+
+.list {
+    list-style: none;
+}
+
+/* ------  ПОСИЛАННЯ ------ */
+
+a {
+    text-decoration: none;
+        }
+    
+.header-links {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--dark-accent-color);
+}
+
+.link:hover {
+color: var(--color-accent-color);
+}
+
+.link:focus {
+color: var(--color-accent-color);
+}
+
+.nav-contact {
+    color: #757575;
+}
+.nav-list {
+    color: var(--dark-accent-color);
 }
 /* ------  КНОПКИ ------ */
+
 .hero-btn {
-       
-    font-family: 'Roboto';
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
-    background: #2196F3;
-    color: #FFFFFF;
+    background: var(--color-accent-color);
+    color: var(--bg-color);
 }
-
+.hero-btn:hover {
+    background-color: var(--color-accent-color);
+    color: var(--bg-color);
+}
+.hero-btn:focus {
+    background-color: var(--color-accent-color);
+    color: var(--bg-color);
+}
 .filter-btn {
     font-weight: 500;
-    }
+    background: #F5F4FA;
+    color: var(--dark-accent-color);
+}
 
-/* ------  ПОСИЛАННЯ ------ */
-a {
-    text-decoration: none;
-    }
+/* ------  ЗАГОЛОВКИ ------ */
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    
+    color: var(--bg-color);
+
+}
+/* ------  ТЕКСТИ ------ */
+
+/* ------  ДОДАТКОВО ------ */
+.hero {
+    background-color: var(--dark-accent-color);;
+}
